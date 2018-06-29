@@ -9,7 +9,7 @@ docker pull gammagao/lightgbm-gpu
 ### Run Image
 
 ```sh
-nvidia-docker run --rm -d --name gammagao/lightgbm-gpu -p 8888:8888 -v /home:/home lightgbm-gpu
+nvidia-docker run --rm -d --name lightgbm-gpu -p 8888:8888 -v /home:/home gammagao/lightgbm-gpu
 ```
 
 ### Attach with Command Line Access (if required)
